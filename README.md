@@ -2,7 +2,7 @@ ejblookup
 =========
 
 The goal of this POC is to show out JEE6 code portability.
-The different aspects tested on different JEE6 application servers.
+Different aspects are tested on application servers.
 
 Sample code is minimalistic in order to avoid confusion.
 
@@ -18,8 +18,15 @@ JNDI Lookup name should be transparent on the different AS.
 
 Both Princial and roles captured in ejblookup-ui must be caught in EJB ejblookup-engine.war
 
+* Status
 
+Currently OK on
 
+-> Glassfish 3.1
+
+-> JBoss 7.1 
+
+-> Weblogic 12c
 
 
 
