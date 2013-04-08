@@ -14,7 +14,7 @@ The ejblookup-ui/index.jsp is calling an Ejb running on the ejblookup-engine.war
 
 JNDI Lookup name should be transparent on the different AS.
 
-* Security
+* EJB Authorization
 
 Both Princial and roles captured in ejblookup-ui must be caught in EJB ejblookup-engine.war
 
