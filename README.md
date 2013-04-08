@@ -1,16 +1,18 @@
 ejblookup
 =========
 
-The goal of this POC is to show out portabiliy different aspects of JEE6 on different JEE6 application servers.
+The goal of this POC is to show out JEE6 code portability.
+The different aspects tested on different JEE6 application servers.
+
 Sample code is minimalistic in order to avoid confusion.
 
-* lookup between 2 wars
+* EJB lookup between 2 wars
 
 ejblookup-ui.war  =>  ejblookup-engine.war
 
-The ejblookup-ui/index.jsp is calling an EjbRemote on the ejblookup-engine.war.
+The ejblookup-ui/index.jsp is calling an Ejb running on the ejblookup-engine.war.
 
-JNDI Lookup name and retrieved Remote interface should be OK.
+JNDI Lookup name should be transparent on the different AS.
 
 * Security
 
